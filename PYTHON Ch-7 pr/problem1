@@ -1,0 +1,4 @@
+# print 1 to 100 even num 
+
+for x in range(0,101,2):
+    print(x)
