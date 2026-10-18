@@ -12,3 +12,7 @@ elif(x>=50):
     print("D")
 else:
     print("F")
+
+y = int(input())
+z = int(input())
+print(y/z)

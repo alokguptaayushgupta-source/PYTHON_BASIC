@@ -10,7 +10,7 @@ c = "Alok"
 d = type(c) # Class <str>
 print(d)
 
-d = "38.6"
+d = "38"
 e = type(d)
 print(e)
 
