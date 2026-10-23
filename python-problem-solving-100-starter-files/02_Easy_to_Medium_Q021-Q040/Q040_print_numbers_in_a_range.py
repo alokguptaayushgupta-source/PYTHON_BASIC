@@ -13,3 +13,8 @@ Test cases to try:
 
 # YOUR SOLUTION STARTS HERE
 
+n1 = int(input("Enter starting number: "))
+n2 = int(input("Enter ending number: "))
+for i in range(n1,n2+1):
+    print(i,end=" ")
+    

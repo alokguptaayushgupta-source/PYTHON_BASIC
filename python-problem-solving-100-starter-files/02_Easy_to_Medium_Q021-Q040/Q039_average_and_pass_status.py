@@ -13,3 +13,15 @@ Test cases to try:
 
 # YOUR SOLUTION STARTS HERE
 
+totalmarks = 0
+allsubject = True
+for i in range(5):
+    marks = int(input("Enter a number: "))
+    totalmarks += marks
+    if(marks < 33):
+        allsubject = False
+    average = totalmarks//5
+if(allsubject):
+    print(average,"Pass")
+else:
+    print("Fail")

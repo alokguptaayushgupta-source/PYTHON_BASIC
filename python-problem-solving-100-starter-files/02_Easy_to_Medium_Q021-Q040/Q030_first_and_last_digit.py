@@ -13,3 +13,9 @@ Test cases to try:
 
 # YOUR SOLUTION STARTS HERE
 
+n = int(input("Enter a number: "))
+last = n%10
+first = n
+while(first>=10):
+    first //= 10
+print(f"First digit = {first}\nLast digit = {last}")

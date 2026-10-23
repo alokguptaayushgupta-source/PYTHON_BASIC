@@ -13,3 +13,12 @@ Test cases to try:
 
 # YOUR SOLUTION STARTS HERE
 
+Input = int(input("Enter a number: "))
+Secret = 27
+if(Input>Secret):
+    print("Too high")
+elif(Input<Secret):
+    print("Too low")
+else:
+    print("Correct")
+    

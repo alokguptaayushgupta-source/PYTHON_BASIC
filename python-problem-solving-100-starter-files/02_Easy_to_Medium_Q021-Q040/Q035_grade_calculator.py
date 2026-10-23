@@ -13,3 +13,14 @@ Test cases to try:
 
 # YOUR SOLUTION STARTS HERE
 
+mark = int(input("Enter your marks: "))
+if(mark>=90):
+    print("A")
+elif(mark>=75):
+    print("B")
+elif(mark>=60):
+    print("C")
+elif(mark>=40):
+    print("D")
+else:
+    print("F")

@@ -13,3 +13,4 @@ Test cases to try:
 
 # YOUR SOLUTION STARTS HERE
 
+n = int(input("Enter a number: "))
